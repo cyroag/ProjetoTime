@@ -68,6 +68,6 @@ public class Time {
 	}
 	
 	private String formataNum(int num) {
-		return (num<10)? "0"+num : String.copyValueOf(num);
+		return (num<10) ? "0"+num : String.valueOf(num);
 	}
 }
